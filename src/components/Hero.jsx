@@ -4,10 +4,10 @@ import bangsIdika2 from "../assets/bangsIdika2.png";
 
 const Hero = () => {
   return (
-    <section className="max-container padding-x pt-[2rem] flex items-center w-full justify-around">
+    <section className="max-container padding-x pt-[2rem] flex items-center w-full justify-around max-md:flex-col">
       <div>
-        <h2 className="font-robotoCondensed text-[5rem] font-bold">
-          They Call Me Bangs <br /> The Baby ..
+        <h2 className="font-robotoCondensed text-[5rem] max-sm:text-[4.5rem] font-bold">
+          They Call Me Bangs <br /> The Baby..
         </h2>
         <div className="flex items-center gap-4 text-[2rem]">
           <a href="">
